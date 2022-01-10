@@ -17,4 +17,6 @@ git log --stat: muestra las versiones con la cantidad de cambios
 
 
 bla bla bla bla
+
 bla bla bla bla
+
