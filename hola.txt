@@ -12,3 +12,5 @@ git show: muestra las diferencias entre la version mas actual y la anterior
 git diff: muestra las diferencias entre dos versiones de commit
 
 git log: muestra los commit, sus ID, quien y cuando se modifico
+
+git log --stat: muestra las versiones con la cantidad de cambios
