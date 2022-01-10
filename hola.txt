@@ -10,13 +10,15 @@ Probando los comandos de control de versiones:
 
 git show: muestra las diferencias entre la version mas actual y la anterior
 git diff: muestra las diferencias entre dos versiones de commit
-
 git log: muestra los commit, sus ID, quien y cuando se modifico
-
 git log --stat: muestra las versiones con la cantidad de cambios
+git checkout (id de la version a la que se quiere acceder)
+git checkout master: para regresar a la version mas actual
+git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la informacion y commit hasta esa version
 
 
 bla bla bla bla
 
 bla bla bla bla
+
 
