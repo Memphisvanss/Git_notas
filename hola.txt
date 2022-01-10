@@ -6,9 +6,9 @@ git add [el nombre del archivo o "." para agregar todos los archivos del actual 
 git commit -m para salvar la version y "-m" es para agregar un comentario es casi obligatorio pero es la mejor practica
 
 
-git log: muestra los commit, sus ID, quien y cuando se modifico
-
 Probando los comandos de control de versiones:
 
 git show: muestra las diferencias entre la version mas actual y la anterior
 git diff: muestra las diferencias entre dos versiones de commit
+
+git log: muestra los commit, sus ID, quien y cuando se modifico
