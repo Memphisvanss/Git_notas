@@ -1,3 +1,7 @@
 Hola mundo este es ivan desde la torre totalplay
 
 Prueba de segundo commit
+
+Probando los comandos de control de versiones:
+
+git show: muestra las diferencias entre la version mas actual y la anterior
