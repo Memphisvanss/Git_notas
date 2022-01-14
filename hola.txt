@@ -19,3 +19,5 @@ git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la 
 Comandos para una nueba rama (Branch)
 git branch [nombre de la rama] para crear la rama
 git checkout [nombre de la rama] para cambiar a la rama 
+
+Prueba de la branch secundaria
