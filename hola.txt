@@ -21,10 +21,6 @@ git branch [nombre de la rama] para crear la rama
 git checkout [nombre de la rama] para cambiar a la rama 
 
 Archivo del master antes del merge
-
-
-archivo de la secundaria antes del merge
-
+Archivo de la secundaria antes del merge
 Archivo tercero despues del fallo merge en rama secundaria
-
 Tercer intento de merge automatico
