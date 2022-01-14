@@ -24,3 +24,5 @@ Archivo del master antes del merge
 
 
 archivo de la secundaria antes del merge
+
+Archivo tercero despues del fallo merge en rama secundaria
