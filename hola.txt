@@ -20,5 +20,5 @@ Comandos para una nueba rama (Branch)
 git branch [nombre de la rama] para crear la rama
 git checkout [nombre de la rama] para cambiar a la rama 
 
+Archivo del master antes del merge
 
-Prueba de la branch secundaria antes del merge
