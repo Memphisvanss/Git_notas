@@ -16,5 +16,12 @@ git checkout (id de la version a la que se quiere acceder)
 git checkout master: para regresar a la version mas actual
 git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la informacion y commit hasta esa version
 
+Comandos para una nueba rama (Branch)
+git branch [nombre de la rama] para crear la rama
+git checkout [nombre de la rama] para cambiar a la rama 
 
+<<<<<<< HEAD
 Prueba de la rama master antes del merge
+=======
+Prueba de la branch secundaria antes del merge
+>>>>>>> secundaria
