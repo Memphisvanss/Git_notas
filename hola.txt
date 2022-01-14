@@ -17,3 +17,4 @@ git checkout master: para regresar a la version mas actual
 git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la informacion y commit hasta esa version
 
 
+Prueba de la rama master antes del merge
