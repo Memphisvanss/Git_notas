@@ -1,4 +1,4 @@
-Hola mundo este es ivan desde la torre totalplay
+Notas de GIT 
 
 Probando el commit de git:
 
