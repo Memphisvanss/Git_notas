@@ -1,10 +1,8 @@
 Notas de GIT 
 
 Probando el commit de git:
-
 git add [el nombre del archivo o "." para agregar todos los archivos del actual directorio]
 git commit -m para salvar la version y "-m" es para agregar un comentario es casi obligatorio pero es la mejor practica
-
 
 Probando los comandos de control de versiones:
 git show: muestra las diferencias entre la version mas actual y la anterior
@@ -15,11 +13,11 @@ git checkout (id de la version a la que se quiere acceder)
 git checkout master: para regresar a la version mas actual
 git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la informacion y commit hasta esa version
 
-Comandos para una nueba rama (Branch)
+Comandos para una nueba rama (Branch):
 git branch [nombre de la rama] para crear la rama
 git checkout [nombre de la rama] para cambiar a la rama 
 
-Git hub comandos para sincronizar git local con git hub
+Git hub comandos para sincronizar git local con git hub:
 git remote add origin "https://github.com/Memphisvanss/Git_notas.git" para indicar cual sera el origen
 git remote 
 git remote -v para revisar lo que tenemos en fetch (lo que nos podemos traer de github) y push (lo que podemos enviar a github)
