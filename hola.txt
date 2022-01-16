@@ -7,7 +7,6 @@ git commit -m para salvar la version y "-m" es para agregar un comentario es cas
 
 
 Probando los comandos de control de versiones:
-
 git show: muestra las diferencias entre la version mas actual y la anterior
 git diff: muestra las diferencias entre dos versiones de commit
 git log: muestra los commit, sus ID, quien y cuando se modifico
@@ -19,4 +18,9 @@ git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la 
 Comandos para una nueba rama (Branch)
 git branch [nombre de la rama] para crear la rama
 git checkout [nombre de la rama] para cambiar a la rama 
+
+Git hub comandos para sincronizar git local con git hub
+git remote add origin "https://github.com/Memphisvanss/Git_notas.git" para indicar cual sera el origen
+git remote 
+git remote -v para revisar lo que tenemos en fetch (lo que nos podemos traer de github) y push (lo que podemos enviar a github)
 
