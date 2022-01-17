@@ -30,3 +30,6 @@ Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_rsa
+
+Agregar la llave privada 
+ssh-add -K ~/.ssh/id_rsa
