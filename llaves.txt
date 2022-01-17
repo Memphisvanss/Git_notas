@@ -14,3 +14,19 @@ el usuario A puede desencriptar el mensaje usando su llave privada.
 La llaves se crean al mismo tiempo por un metodo matematico pero la llave publica 
 no sirve para decifrar el mensaje por lo que se pueden compartir por cualquier medio
 publico si arriesgar el mensaje.
+
+MAC
+Generar llaves 
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+Revisar que agente de ssh esta corriendo 
+eval "$(ssh-agent -s)"
+
+Crear el archivo config en el directorio .ssh
+vim config
+
+el archivo debe de contener:
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
