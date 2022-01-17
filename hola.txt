@@ -3,6 +3,7 @@ Notas de GIT
 Probando el commit de git:
 git add [el nombre del archivo o "." para agregar todos los archivos del actual directorio]
 git commit -m para salvar la version y "-m" es para agregar un comentario es casi obligatorio pero es la mejor practica
+git branch -m "new-name"
 
 Probando los comandos de control de versiones:
 git show: muestra las diferencias entre la version mas actual y la anterior
@@ -21,4 +22,5 @@ Git hub comandos para sincronizar git local con git hub:
 git remote add origin "https://github.com/Memphisvanss/Git_notas.git" para indicar cual sera el origen
 git remote 
 git remote -v para revisar lo que tenemos en fetch (lo que nos podemos traer de github) y push (lo que podemos enviar a github)
-
+git pull origin main para traernos los archivos desde github
+git pull origin main --allow-unrelated-histories para sincronizar las historias de las ramas entre github y git
