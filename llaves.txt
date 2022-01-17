@@ -1,1 +1,16 @@
 Notas llaves publicas y privadas
+
+ruta: /Users/ivangs/.ssh
+
+Descripcion:
+Las llaves publicas y privadas sirven para compartir mensajes encriptados por algun medio no seguro
+
+Funcionamiento:
+El usuario que quiere recivir mensajes crea su llave publica y su llave privadas
+la llave publica la comparte con el usuario de quien quiere recibir los mensajes
+el otro usuario B encripta el mensaje con la llave publica del usuario A y envia el mensaje
+el usuario A puede desencriptar el mensaje usando su llave privada.
+
+La llaves se crean al mismo tiempo por un metodo matematico pero la llave publica 
+no sirve para decifrar el mensaje por lo que se pueden compartir por cualquier medio
+publico si arriesgar el mensaje.
