@@ -14,6 +14,8 @@ git log --stat: muestra las versiones con la cantidad de cambios
 git checkout (id de la version a la que se quiere acceder)
 git checkout master: para regresar a la version mas actual
 git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la informacion y commit hasta esa version
+git rm --cached: Elimina los archivos de nuestro repositorio local y del área de staging, pero los mantiene en nuestro disco duro. Básicamente le dice a Git que deje de trackear el historial de cambios de estos archivos, por lo que pasaran a un estado untracked.
+git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
 
 Comandos para una nueba rama (Branch):
 git branch [nombre de la rama] para crear la rama
