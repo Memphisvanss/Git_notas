@@ -27,3 +27,4 @@ git remote
 git remote -v para revisar lo que tenemos en fetch (lo que nos podemos traer de github) y push (lo que podemos enviar a github)
 git pull origin main para traernos los archivos desde github
 git pull origin main --allow-unrelated-histories para sincronizar las historias de las ramas entre github y git
+git remote set-url origin git@github.com:Memphisvanss/Git_notas.git : para cambiar la url de HTTPS por SSH
