@@ -18,9 +18,13 @@ git rm --cached: Elimina los archivos de nuestro repositorio local y del área d
 git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
 git log --all --graph --decorate --oneline : para visualizar la historia de manera mas grafica
 
-Comandos para una nueba rama (Branch):
+Comandos para manipular ramas (Branch):
 git branch [nombre de la rama] para crear la rama
 git checkout [nombre de la rama] para cambiar a la rama 
+git show-branch : muestra la informacion del desarrollo de las ramas
+git show-branch --all : muestra toda la informacion del desarrollo de las ramas
+gitk : muestra de forma grafica en una aplicacion la historia de las ramas
+git push origin <nombre de la rama> : para subir a Github las ramas adyacentes
 
 Git hub comandos para sincronizar git local con git hub:
 git remote add origin "https://github.com/Memphisvanss/Git_notas.git" para indicar cual sera el origen
