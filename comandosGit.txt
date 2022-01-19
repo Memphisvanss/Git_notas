@@ -16,6 +16,7 @@ git checkout master: para regresar a la version mas actual
 git reset (ID de la version a la que se quiere resetear)--hard: borrara toda la informacion y commit hasta esa version
 git rm --cached: Elimina los archivos de nuestro repositorio local y del área de staging, pero los mantiene en nuestro disco duro. Básicamente le dice a Git que deje de trackear el historial de cambios de estos archivos, por lo que pasaran a un estado untracked.
 git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
+git log --all --graph --decorate --oneline : para visualizar la historia de manera mas grafica
 
 Comandos para una nueba rama (Branch):
 git branch [nombre de la rama] para crear la rama
@@ -28,3 +29,14 @@ git remote -v para revisar lo que tenemos en fetch (lo que nos podemos traer de 
 git pull origin main para traernos los archivos desde github
 git pull origin main --allow-unrelated-histories para sincronizar las historias de las ramas entre github y git
 git remote set-url origin git@github.com:Memphisvanss/Git_notas.git : para cambiar la url de HTTPS por SSH
+
+Git tags
+git tag -a v1.0 -m "primera cersion del archivo comandosGit" a538d5e : para agregar un tag a un commit
+git tag : muestra todos los tags
+git show-ref --tags : muestra la relacion de tags con ids de commit
+git push origin --tags
+git tag -d <nombre del tag> : para eliminar un tag de git
+git push origin :refs/tags/<nombre del tag> : para eliminar un tag de github
+
+Repaso de alias en linux:
+alias arbol="git log --all --graph --decorate --oneline"
