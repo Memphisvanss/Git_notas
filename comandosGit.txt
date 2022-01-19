@@ -42,5 +42,11 @@ git push origin --tags
 git tag -d <nombre del tag> : para eliminar un tag de git
 git push origin :refs/tags/<nombre del tag> : para eliminar un tag de github
 
+Colaboracion con Git/Github
+el nuevo usuario tendra que clonar el repositorio en su estacion de trabajo para despues hacer pull y traerse la version mas actual.
+Ahora puede seguir agregando informacion y hacer commits locales, sin embargo para poder hacer push debe tener autorizacion del usuario 
+principal. El usuario principal puede agregar estos permisos en los settings del repositorio y agregando al nuevo usuario por su username 
+o email (para el email el usuario B debe de hacer publico su email de su cuenta).
+
 Repaso de alias en linux:
 alias arbol="git log --all --graph --decorate --oneline"
