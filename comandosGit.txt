@@ -24,8 +24,7 @@ git branch -m <nuevo nombre de la branch> : para renombrar una branch
 git checkout <nombre de la rama> : para cambiar a la rama deseada 
 git show-branch : muestra la informacion del desarrollo de las ramas
 git show-branch --all : muestra toda la informacion del desarrollo de las ramas
-gitk : muestra de forma grafica en una aplicacion la historia de las ramas
-git push origin <nombre de la rama> : para subir a Github las ramas adyacentes
+gitk : muestra de forma grafica en una aplicacion la historia de las ramas 
 
 Git hub comandos para sincronizar git local con git hub:
 git remote add origin "https://github.com/Memphisvanss/Git_notas.git" para indicar cual sera el origen
@@ -34,6 +33,7 @@ git remote -v : para revisar lo que tenemos en fetch (lo que nos podemos traer d
 git pull origin main : para traernos los archivos desde github
 git pull origin main --allow-unrelated-histories : para sincronizar las historias de las ramas entre github y git
 git remote set-url origin git@github.com:Memphisvanss/Git_notas.git : para cambiar la url de HTTPS por SSH
+git push origin <nombre de la rama> : para subir a Github las ramas
 
 Git tags
 git tag -a <nombre del tag> -m "<comentario>" <id del commit> : para agregar un tag a un commit, te puedes apoyar del comando "git log --all --graph --decorate --oneline" para identificar el id del commit
@@ -48,6 +48,17 @@ el nuevo usuario tendra que clonar el repositorio en su estacion de trabajo para
 Ahora puede seguir agregando informacion y hacer commits locales, sin embargo para poder hacer push debe tener autorizacion del usuario 
 principal. El usuario principal puede agregar estos permisos en los settings del repositorio y agregando al nuevo usuario por su username 
 o email (para el email el usuario B debe de hacer publico su email de su cuenta).
+
+Pull Request
+Es un estado que se utiliza en Github para realizar cambios y ademas se puede solicitar a colaboradores que ayuden a validar los cambios.
+comunmente se genera una nueva rama apartir de main en donde se ajustan los cambios deseados, despues se hace commit y push a github para que
+se pueda realizar un pull request que compara la version main y la rama nueva con los cambios y se puede solicitar a colaboradores que ayuden 
+a validar el cambio, el cambio puede ser confirmado o modificado, una vez aceptado se hace un merge de esa rama con main.
+
+Fork
+Es una funcionalidad de Github que nos permite clonar el repositorio de alguien mas a nuestro repositorio, el repositorio origen debe ser publico
+usualmete se usa cuando el proyecto es opensource y no eres colaborador sin embargo te gustaria aportar una mejora. Entonces clonamos y nos aporpiamos
+de ese respositorio clonado para que nosotros podamos modificar, alterar ramas, fusionar, etc.
 
 Repaso de alias en linux:
 alias arbol="git log --all --graph --decorate --oneline"
