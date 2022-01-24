@@ -8,7 +8,7 @@ cat :
 less :
 pwd :
 > : redireccion - sirve para redireccionar un output de un comando a un archivo  " ls > lista.txt"
-ln -s : sirve para crear un link simbolico
+ln -s : sirve para crear un link simbolico "ls -s ~/documentos/archivos proyecto1"
 | : pipe - sirve para anidar comandos " mkdir directorio | cd directorio | touch lista.txt"
 touch : sirve para crear un archivo
 rm : remove - para eliminar un archivo
