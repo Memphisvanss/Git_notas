@@ -1,0 +1,39 @@
+Notas de comandos linux 
+
+cd      :change directory - sirve para cambiar directorio
+ls      :list - listar los archivos dentro de un directorio
+ls -l   :list largo - listar los archivos en formato largo
+echo    :imprimir - imprime el string en consola que se le de despues del comando echo
+cat     :mostrar el contenido de un archivo en consola
+less    :sirve para mostrar el contenido de un archivo en consola pero con mas opciones, inculso buscar un archivo
+pwd     :print word directory - sirve para mostrar la ruta en la que estamos parados
+>       :redireccion - sirve para redireccionar un output de un comando a un archivo  " ls > lista.txt"
+ln -s   :sirve para crear un link simbolico "ls -s ~/documentos/archivos proyecto1"
+|       :pipe - sirve para anidar comandos " mkdir directorio | cd directorio | touch lista.txt"
+touch   :sirve para crear un archivo
+rm      :remove - para eliminar un archivo
+rm -r   :remove recursivo - sirve para eliminar un directorio y sus archivos internos
+cp      :copy - sirve para compiar un archivo
+mv      :move - sirve para mover un archivo 
+chmod	:change mode - para cambiar los privilegios de un archivo o directorio "chmod 755" usurio, grupo, otros -> rwxr-xr-x
+chown	:change propietary - sirve para cambiar de propietario a un archivo
+cal 	:sirve para mostrar el calendario con la fecha en consola
+su	    :swich user - sirve para cambiar entre usuarios
+vim	    :es un editor de texto
+nano	:es un editor de texto
+whoami	:quien soy - nos da el nombre del usuarios
+$()	    :pasar comandos dentro de otro comando "cat $(find ~/git/platzi_git -name comandosLinux.txt)"
+find	:encontrar - encontrar un archivo
+printenv	:print entorne variables - imprime las variables de entorno
+alias	:alias - puedes guardar toda una linea de comandos con propiedades a un nuevo comando que crees "alias arbol="git log --all --graph --decorate --oneline""
+echo $<variable>	:print variable - sirve para imprimir el valor de la variables de entorno "echo $SHELL"
+which	:cual - marca la ruta de un programa, mientras este se encuentre dentro del PATH de binarios
+type	:tipo - nos dice que es el comando que nosotros le demos "type cd" --> cd is a shell builtin
+find    :encontrar - no ayuda a encontrar un archivo desde l aruta que le determinemos "find ~ -name "*.txt""
+
+**** Repasar wildcards  ****
+
+Hacer permanentes los alias
+pararte en home ~
+crear o editar el archivo .zshrc con los alias que se necesitan
+sourcear el archivo con "source ~/.zshrc"
