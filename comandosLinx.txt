@@ -24,3 +24,6 @@ nano : es un editor de texto
 whoami : quien soy - nos da el nombre del usuarios
 $() : pasar comandos dentro de otro comando "cat $(find ~/git/platzi_git -name comandosLinux.txt)"
 find : encontrar - encontrar un archivo
+printenv : print entorne variables - imprime las variables de entorno
+alias : alias - puedes guardar toda una linea de comandos con propiedades a un nuevo comando que crees "alias arbol="git log --all --graph --decorate --oneline""
+echo $<variable> : print variable - sirve para imprimir el valor de la variables de entorno "echo $SHELL"
