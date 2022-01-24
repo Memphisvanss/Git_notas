@@ -1,0 +1,15 @@
+Notas de comandos linux 
+
+cd : change directory - sirve para cambiar directorio
+ls : list - listar los archivos dentro de un directorio
+ls -l : list largo - listar los archivos en formato largo
+echo : imprimir - imprime el string en consola que se le de despues del comando echo
+cat : 
+less :
+pwd :
+> : redireccion - sirve para redireccionar un output de un comando a un archivo  " ls > lista.txt"
+ln -s : sirve para crear un link simbolico
+| : pipe - sirve para anidar comandos " mkdir directorio | cd directorio | touch lista.txt"
+touch : sirve para crear un archivo
+rm : remove - para eliminar un archivo
+rm -r : remove recursivo - sirve para eliminar un directorio y sus archivos internos
