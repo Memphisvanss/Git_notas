@@ -30,7 +30,10 @@ echo $<variable>	:print variable - sirve para imprimir el valor de la variables 
 which	:cual - marca la ruta de un programa, mientras este se encuentre dentro del PATH de binarios
 type	:tipo - nos dice que es el comando que nosotros le demos "type cd" --> cd is a shell builtin
 find    :encontrar - no ayuda a encontrar un archivo desde l aruta que le determinemos "find ~ -name "*.txt""
-
+grep    :encontrar y contar cualquier string que le pasemos dentro de un archivo
+wc      :word count - contar las lineas que hay en un archivo
+curl    :permite traer informacion desde la red
+wget    :permite descargar el html con formato de una pagina web
 **** Repasar wildcards  ****
 
 Hacer permanentes los alias
