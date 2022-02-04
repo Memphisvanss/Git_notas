@@ -17,7 +17,6 @@ git reset (ID de la version a la que se quiere resetear)--hard : borrara toda la
 git rm --cached: Elimina los archivos de nuestro repositorio local y del area de staging, pero los mantiene en nuestro disco duro. Básicamente le dice a Git que deje de trackear el historial de cambios de estos archivos, por lo que pasaran a un estado untracked.
 git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
 git log --all --graph --decorate --oneline : para visualizar la historia de ramas y commits de manera mas grafica
-git merge <nombre de la rama> -m : es para fucionar ramas, primero te paras en la rama en que dejaras como principal y especificas la rama que te quieres traer y fucionar mas "-m" para agregar un comentario
 
 Comandos para manipular ramas (Branch):
 git branch <nombre de la rama>: para crear una nueva rama
@@ -26,6 +25,8 @@ git checkout <nombre de la rama> : para cambiar a la rama deseada
 git show-branch : muestra la informacion del desarrollo de las ramas
 git show-branch --all : muestra toda la informacion del desarrollo de las ramas
 gitk : muestra de forma grafica en una aplicacion la historia de las ramas 
+git merge <nombre de la rama> -m : es para fucionar ramas, primero te paras en la rama en que dejaras como principal y especificas la rama que te quieres traer y fucionar mas "-m" para agregar un comentario
+
 
 Git hub comandos para sincronizar git local con git hub:
 git remote add origin "https://github.com/Memphisvanss/Git_notas.git" para indicar cual sera el origen
