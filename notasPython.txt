@@ -10,6 +10,11 @@ my_string = 'informacion'
 len(my_string)
 >>11
 
+CADENA DE FORMATO
+f'hola esto es: {my_string}'
+>>'hola esto es: informamcion'
+
+
 INDEXACION
 my_string[1] muestra el caracter en la posicion 1
 >>'n'
