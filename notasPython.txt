@@ -11,11 +11,11 @@ len(my_string)
 >>11
 
 INDEXACION
-my_string[1]
+my_string[1] muestra el caracter en la posicion 1
 >>'n'
-my_string[1:4]
+my_string[1:4] muestra los caractares entre las posiciones 1 y 4
 >>'nfo'
-my_string[::2]
+my_string[::2] muestra los caracteres en las posiciones de 2 en 2
 >>'ifrmin'
 
 
