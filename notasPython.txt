@@ -23,4 +23,10 @@ my_string[1:4] muestra los caractares entre las posiciones 1 y 4
 my_string[::2] muestra los caracteres en las posiciones de 2 en 2
 >>'ifrmin'
 
+INPUTs
 
+nombre = input('Cual es tu nombre: ')
+>> Cual es tu nombre: -----
+
+print(f'Tu nombre es: {nombre} ?')
+>>Tu nombre es: Ivan ?
