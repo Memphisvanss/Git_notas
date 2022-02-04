@@ -1,11 +1,12 @@
 Notas de clase "Introduccion pensamiento computacional python"
 
-Definicion de variables
-
 =	significa asignacion
-len	devuelve la cantidad de caracteres dentro de un string
+
+DEFINICION DE VARIABLES
 
 my_string = 'informacion'
+
+len	devuelve la cantidad de caracteres dentro de un string
 
 len(my_string)
 >>11
@@ -13,7 +14,6 @@ len(my_string)
 CADENA DE FORMATO
 f'hola esto es: {my_string}'
 >>'hola esto es: informamcion'
-
 
 INDEXACION
 my_string[1] muestra el caracter en la posicion 1
