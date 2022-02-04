@@ -1,1 +1,21 @@
-Notas de clase "Introduccion pensamiento computacional python
+Notas de clase "Introduccion pensamiento computacional python"
+
+Definicion de variables
+
+=	significa asignacion
+len	devuelve la cantidad de caracteres dentro de un string
+
+my_string = 'informacion'
+
+len(my_string)
+>>11
+
+INDEXACION
+my_string[1]
+>>'n'
+my_string[1:4]
+>>'nfo'
+my_string[::2]
+>>'ifrmin'
+
+
