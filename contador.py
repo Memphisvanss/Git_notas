@@ -4,7 +4,7 @@ from xmlrpc.client import Boolean
 inicio = True
 print ('Este es un contador, puedes contar hasta el numero que quieras en multiplos que quiereas, incluso en decimales.')
 print ('Asegurate de siempre usar numeros, el programa aun no puede validar si es un numero o un caracter')
-print ('Intentalo las veces que quieras. Que te diviertas!')
+print ('Intentalo las veces que quieras. Que te diviertas!\n')
 while inicio: #while principal, hace que el programa fuincione mientras que se le pida
     contador = float(input('Hasta que numero quieres contar?: '))
     multiplo = float(input('De cuanto en cuantos quieres contar?: '))
@@ -26,6 +26,6 @@ while inicio: #while principal, hace que el programa fuincione mientras que se l
             respuesta = False
             valida = False
         else:
-            print('Respuesta no valida, intenta de nuevo')
+            print('!!!Respuesta no valida, intenta de nuevo!!!\n')
             valida = True
     inicio = respuesta
