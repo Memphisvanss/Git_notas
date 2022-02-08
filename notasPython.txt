@@ -2,6 +2,11 @@ Notas de clase "Introduccion pensamiento computacional python"
 
 =	significa asignacion
 
+frutas = ['manzana', 'pera', 'melon'] # Lista
+frutas = ('manzana', 'pera', 'melon') # Tupla
+frutas = {'manzana', 'pera', 'melon'} # Conjunto
+frutas = {'manzana':1, 'pera':2, 'melon':3} # Dicccionario
+
 DEFINICION DE VARIABLES
 
 my_string = 'informacion'
@@ -24,9 +29,65 @@ my_string[::2] muestra los caracteres en las posiciones de 2 en 2
 >>'ifrmin'
 
 INPUTs
-
 nombre = input('Cual es tu nombre: ')
 >> Cual es tu nombre: -----
 
 print(f'Tu nombre es: {nombre} ?')
 >>Tu nombre es: Ivan ?
+
+ITERATORS # son como funciona un for
+frutas = ['manzana', 'pera', 'sandia']
+iterator = iter(frutas)
+next(iterator)
+>>'manzana'
+next(iterator)
+>>'pera'
+next(iterator)
+>>'sandia'
+
+En la lista anterior, cada vez que llamamos el next iterator nos devuelve un elemento de la lista, cuando termina
+nos manda un StopIteration
+
+iter(['manzana', 'pera', 'melon']) # Lista
+iter(('manzana', 'pera', 'melon')) # Tupla
+iter({'manzana', 'pera', 'melon'}) # Conjunto
+iter({'manzana':1, 'pera':2, 'melon':3}) # Dicccionario
+
+En un for :
+
+for fruta in frutas:
+	print(fruta)
+
+>> manzana
+>> pera
+>> sandia
+
+1.- Python llama internamente la función iter para obtener un iterator
+2.- Una vez que tiene un iterator llama repetidamente la función next para
+    tener acceso al siguiente elemento en el bucle.
+3.- Detiene el bucle una vez que se arroja el error StopIteration.
+
+Ejecercicios FOR
+
+estudiantes = {
+	'Mexico' : 1,
+	'Colombia' : 2,
+	'Peru' : 3,
+	} 
+
+for paises in estudiantes: 
+	print(paises) 
+print ('\n')
+
+for paises in estudiantes.keys(): 
+	print(paises)
+print ('\n')
+
+for numero_estudiantes in estudiantes.values():
+	print(numero_estudiantes)
+print ('\n')
+
+for pais, estudiantes in estudiantes.items():
+	print(pais, ' : ', estudiantes)
+print ('\n')
+
